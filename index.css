@@ -1,0 +1,236 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+*{
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+img{
+    max-width: 65px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;
+}
+nav{
+    background-color: #2B6D70;
+    width:100%;
+    height:45px;
+    display: flex;
+    justify-content:center;
+align-items: center;
+    
+}
+nav a{
+    margin-right: 95px;
+    color:white;
+}
+.partie1{
+    width: 100%;
+background-image: url(background.jpg);
+background-size: contain;
+background-repeat: no-repeat;
+height:1050px;
+z-index: -1;
+min-width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.partie1 .partie11{
+    color:white;
+    font-size:  40px;
+    font-family: 'Raleway', sans-serif;
+    
+}
+.partie1 .partie11 h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight:calc(10%);
+}
+.partie1 .partie11 p{
+    border:#2B6D70 solid;
+    background-color: #2B6D70;
+    border-radius: 5px;
+    width:150px;
+    padding:5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding:10px;
+    height:50px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+.partie2{
+    width:100%;
+    height:720px;
+}
+.partie2 .p21{
+    width: 100%;
+    height:5%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: #2B6D70;
+}
+.partie2 .p22{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.partie2 .p22 .card .img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
+.partie2 .p22 .card .img1{
+    min-width:80%;
+    height:100px;
+    margin-bottom: 0;
+}
+.partie2 .p22 .card h1{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 0;
+}
+.partie2 .p22 .card .text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 11px;
+}
+.partie2 .p22 .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #2B6D70;
+    border:#2B6D70 solid;
+    border-radius: 5px;
+    margin-bottom:15px ;
+    width: 45%;
+    margin-right: auto;
+    margin-left: auto;
+    height:35px;
+    font-size: 13px;
+}
+.partie2 .p22 .card{
+border: #2B6D70 solid;
+border-radius: 7px; 
+background-color: #B7D3DF;
+width:230px;
+color: #1C315E ;
+height:300px;
+margin-top:30px;
+margin-bottom: auto;
+display: flex;
+flex-direction: column;
+justify-content:space-around;
+margin-left: 35px;
+}
+.partie3{
+    width:100%;
+    height:595px;
+    background-color: #2B6D70;
+    color:white;
+}
+.partie3 .partie31{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:15%;
+}
+.partie3 .partie32{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 250px 250px;
+    justify-content: center;
+}
+
+.partie3 .partie32 p1 .img5{
+min-width: 100px;
+}
+.partie3 .partie32 p2 img{
+min-width: 100px;
+}
+.partie3 .partie32 p3 .img6{
+    min-width: 400px;
+    min-height: 250px;
+}
+.partie3 .partie32 p4 .img7{
+    height:200px;
+}
+.partie4{
+    width:100%;    
+    height:580px;
+    background-color: #B7D3DF;
+    color:#2B6D70;
+}
+.partie4 .p41{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:18%;
+}
+.partie4 .p42{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width:30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.partie4 .p42 input{
+    height:30px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.partie4 .p42 #Message{
+    height:160px;
+}
+.partie4 .p42 .p4111{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.partie4 .p42 .p4111 .p421{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #2B6D70;
+    border: #2B6D70 solid;
+    border-radius: 3px;
+    height: 30px;
+    width: 80px;
+}
+footer p{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:47px;
+    background-color:#2B6D70 ;
+    color: white;
+    text-align: center;
+}
